@@ -1,0 +1,102 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+html {
+	font-size: 1.6em;
+	font-family: 'Righteous', cursive;
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 0px 0px 200px 14px #333;
+	-o-box-shadow: inset 0px 0px 200px 14px #333;
+	-moz-box-shadow: inset 0px 0px 200px 14px #333;
+	-webkit-box-shadow: inset 0px 0px 200px 14px #333;
+	background: url(giphy.gif) fixed center no-repeat;
+	background-size: cover;
+}
+
+body {
+	padding-top: 150px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+
+ul {
+	list-style: none;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#wrapper {
+	display: none;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+#dropdown {
+	margin-top: 50px;
+	border-radius: 5%;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+}
+
+#dropdown > li {
+	margin: 0px 20px;
+	margin-top: 50px;
+	padding: 5px 50px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgb(82, 0, 102);
+	background: rgba(82, 0, 102, .8);
+	background-size: contain;
+	width: 200px;
+}
+
+.sub-menu {
+	text-align: center;
+	left: 0; top: 35px;
+	background: rgba(102, 0, 128, .5);
+	background-size: contain;
+	margin: 0; padding: 0;
+	display: hidden;
+	width: 220px;
+	border: 1px solid #111;
+	overflow: hidden;
+	display: inline-block;
+	display: none;
+	border-radius:5%;
+}
+
+.sub-menu li {
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 220px;
+}
+
+.sub-menu li a {
+	float: left;
+	width: 200px;
+	padding: 5px 10px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+}
+
+.sub-menu li a:hover {
+	background-color: rgb(255, 2555, 255);
+	background-color: rgba(255, 255, 255, .4);
+}
