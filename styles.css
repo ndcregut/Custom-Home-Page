@@ -48,7 +48,7 @@ a {
 }
 
 #dropdown {
-	margin-top: 2%;
+	margin: 2% 0% 0% 0%;
 	border-radius: 5%;
 	color: white;
 	text-shadow: 5px 5px 5px black;
